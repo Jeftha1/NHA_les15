@@ -1,0 +1,77 @@
+body {
+	background-color: ghostwhite;
+	font-family: Helvetica, sans-serif;
+	margin-left:  100px;  
+	margin-right:  100px;
+}
+
+ul a{
+	text-decoration:  none; 
+}
+
+li {
+	display:  inline-block;
+	height:  24px;
+	width:  100px; 
+	padding:  12px;
+	text-align:  center;
+	border:  2px solid white;
+	border-radius:  4px;
+	background-color: lightgray;
+}
+
+li:hover {
+	background-color: azure;
+	border-style:  none;
+}
+
+li:active, #verzend:active {
+	background-color: palegreen;
+}
+
+#profielfoto {
+	width:  300px;
+	height:  300px;
+	margin-bottom:  20px;
+}
+
+header, body, footer {
+	padding:  5px;
+}
+
+header {
+	background-color: lightcyan;
+}
+
+footer {
+	background-color:  cornflowerblue;
+	padding:  10px;
+}
+
+input, textarea {
+	display: block;
+	margin:  15px 0px;
+	width:  400px;
+	box-sizing:  border-box;
+}
+
+textarea {
+	height:  200px;
+}
+
+table {
+	border-collapse:  collapse;
+	width:  600px;
+	margin-bottom:  20px;
+}
+
+td, th {
+	padding:  10px 5px;
+	background-color: mediumslateblue;
+}
+
+section p {
+	background-color: mediumslateblue;
+	color:  floralwhite;
+	padding:  5px;
+}

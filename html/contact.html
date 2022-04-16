@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Jeftha van Eunen">
+	<meta name="description" content="Een pagina met een contactformulier">
+	<meta name="keywords" content="Contactformulier">
+	<link rel="stylesheet" type="text/css" href="../css/main.css" />
+	<title>Contact</title>
+</head>
+<body>
+	<header>
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="mijncv.html">CV</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</header>
+
+	<article>
+		<h1>Contactformulier</h1>
+		<form method="post" action="https://formspree.io/f/xnqwggrz">
+			<label for="voornaam">Voornaam: </label>
+			<input id="voornaam" type="text" name="voornaam" placeholder="Uw voornaam" />
+			<label for="achternaam">Achternaam: </label>
+			<input id="achternaam" type="text" name="achternaam" placeholder="Uw achternaam" />
+			<label for="mailadres">Mail: </label>
+			<input id="mailadres" type="email" name="mailadres" placeholder="Uw e-mailadres" />
+			<label for="bericht">Bericht: </label>
+			<textarea id="bericht" placeholder="Uw bericht" name="bericht"></textarea>
+			<input id="verzend" type="submit" value="Verzend">
+		</form>
+	</article>
+
+	<footer id="foot">
+		<p>Auteur: Jeftha van Eunen</p>
+		<p>&copy; 2022</p>
+	</footer>
+
+</body>
+</html>
